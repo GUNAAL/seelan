@@ -1,22 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    char c;
-
-    printf("Enter u to display alphabets in uppercase. And enter l to display alphabets in lowercase: ");
-    scanf("%c", &c);
-
-    if(c== 'U' || c== 'u')
-    {
-       for(c = 'A'; c <= 'Z'; ++c)
-         printf("%c ", c);
-    }
-    else if (c == 'L' || c == 'l')
-    {
-        for(c = 'a'; c <= 'z'; ++c)
-         printf("%c ", c);
-    }
-    else
-       printf("Error! You entered invalid character.");
-    return 0;
+  chr c;
+  printf("enter u to display alphabets in uppercase and outer 1 to display alphabets in lowercase:");
+  scanf("%c",&c);
+  if(c== 'U' || c== 'u')
+{
+ for c= 'A';C<='Z':++C
 }
+  printf("%c;c);
+}
+         else irf(c==c||c=='1')
+         {
+             for(c='a';c<'z';++c)
+                 printf("%C",c);
+         }
+         else
+         printf("error! you enterd involied charecter",);
+         return 0;
+         }
+         
