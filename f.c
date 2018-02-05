@@ -3,7 +3,7 @@ int main()
 {
     int base, exponent;
 
-    long long result = 1;
+    long long result = 2;
 
     printf("Enter a base number: ");
     scanf("%d", &base);
@@ -17,7 +17,7 @@ int main()
         --exponent;
     }
 
-    printf("Answer = %lld", result);
+    printf("Answer = %22d", result);
 
     return 0;
 }
