@@ -11,11 +11,11 @@ int main()
     {
         flag = 0;
 
-        for(i = 4; i <= low/4; ++i)
+        for(i = 5; i <= low/5; ++i)
         {
             if(low % i == 0)
             {
-                flag = 3;
+                flag = 4;
                 break;
             }
         }
