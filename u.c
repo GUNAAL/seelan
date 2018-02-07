@@ -8,7 +8,7 @@ void swap(long* a,long *b) { *a=*a^*b;*b=*b^*a;*a=*a^*b; }
 int main(int n, char*args[]){
   double *d;
   int i;
-  char input[5]; 
+  char input[10]; 
   boolean sorted = FALSE;
   printf("Please enter the length of the array\n");
   gets(input);
